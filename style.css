@@ -1,0 +1,65 @@
+H1 {text-align : center; color : whitesmoke; font-family : Permanent Marker, cursive, Arial, Helvetica, sans-serif}
+* {
+    box-sizing: border-box;   
+    font-family :  "Gentium Book Basic", Arial, Helvetica, sans-serif;
+ 
+}
+
+body {
+    margin: 0;
+    font-family: "Gentium Book Basic", Arial, Helvetica, sans-serif;
+  }
+  
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }   
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+.header {
+    background-color : lightslategray;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+.content {
+    background-color: #ddd;
+    padding: 10px;
+  }
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.column.side {
+    width:25%;
+}
+
+.column.middle {
+    width:50%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    background-color : lightslategray;
+    padding: 10px;
+    text-align:center;
+}
+
